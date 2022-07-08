@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue,
-          title: const Text('Ok i pull up'),
+          title: const Text('Ok i pull upp'),
         ),
         body: Center(
           child: RawMaterialButton(
