@@ -11,25 +11,24 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.blue,
-          title: const Text('Ok i pull upp'),
-        ),
-        body: Center(
-          child: RawMaterialButton(
-            fillColor: Colors.red, 
-            onPressed: () {
-              
-            },
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(50.0),
+        home: Scaffold(
+            appBar: AppBar(
+              backgroundColor: Colors.blue,
+              title: const Text('Ok i pull up'),
             ),
-            constraints: const BoxConstraints.tightFor(height: 50.0, width: 100.0),
+            body: Center(
+              child: RawMaterialButton(
+                fillColor: Colors.red,
+                onPressed: () {
+                  print('Bah');
+                },
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(50.0),
+                ),
+                constraints:
+                    const BoxConstraints.tightFor(height: 50.0, width: 100.0),
               ),
-        )
-      )
-    );
+            )));
   }
 }
 
